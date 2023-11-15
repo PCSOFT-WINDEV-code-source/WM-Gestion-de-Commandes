@@ -1,0 +1,142 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pGlobales
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x184f961000020839
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAABPOo5wfzL5PtlmH9g6pVlcqG1md+uM4GM8B/k/aVja5R6ZseBzxTGWZbo12UeE8bWym5Rl91AKrNq9wTYnFyamg2lAMw==
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      CONSTANTE
+      	// Constantes de type d'historique
+      	cstTYPEHISTO_AUTRES = 1
+      	cstTYPEHISTO_CONTACT = 2
+      	cstTYPEHISTO_COMMANDE = 3
+      	cstTYPEHISTO_FACTURE = 4
+      FIn
+     type : 720896
+  procedures :
+   -
+     name : AjouteHistorique
+     internal_properties : CAAAAAgAAACYRCO4fMp7H9uK8E5Hun81cRkEkQRptM8zX07TSZdlGOfU8bseHZ1BUHlmFjharzuBfum1M4y+C9S/nZLTZO2cwVpyX8oEZkyb6F/P9T8tbgmMEOfBqg5twoa6fUleAwl625Jz1tv+aZwgyednz0cJd293Y8ugEnkx9a1G1G63DRFl0QrN3KgVJjR3pqq0DKAZ+FiAYUMxsyiWFI5KaQFb5Ffb
+     procedure_id : 1751789238738514325
+     type_code : 15
+     code : |1-
+      // Résumé : Ajoute un historique pour un client
+      // Syntaxe :
+      //AjouteHistorique (<nNumClient> est entier, <nType> est entier, <sLibellé> est chaîne [, <dhDateheure> est dateheure])
+      //
+      // Paramètres :
+      //	nNumClient (entier) : Numéro de client
+      //	nType (entier) : Type d'historique
+      //	sLibellé (chaîne UNICODE) : Libellé
+      //	dhDateheure (dateheure) : Date et heure de l'historique
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AjouteHistorique(LOCAL nNumClient est un entier, LOCAL nType est un entier, LOCAL sLibellé est une chaine, LOCAL dhDateheure est une dateheure = datedujour()+maintenant())
+      
+      // Nouvel enregistrement Historique
+      hraz(HistoriqueContact)
+      HistoriqueContact.numclient = nNumClient
+      HistoriqueContact.Date = dhDateheure..partiedate
+      HistoriqueContact.heure = dhDateheure..partieheure
+      HistoriqueContact.Dateheure = dhDateheure
+      HistoriqueContact.Libellé = sLibellé
+      HistoriqueContact.TypeHistorique = nType
+      hajoute(HistoriqueContact)
+     type : 458752
+   -
+     name : ImprimerBonDeCommande
+     procedure_id : 1196805569202834769
+     type_code : 15
+     code : |1+
+      // Résumé : Imprime une commande
+      // Syntaxe :
+      //ImprimerBonDeCommande (<nNuméroCommande> est entier)
+      //
+      // Paramètres :
+      //	nNuméroCommande (entier) : Numéro de commande
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE ImprimerBonDeCommande(LOCAL nNuméroCommande est un entier <utile>)
+      
+      
+      <SI CibleExécution=iOS>
+      	externe ETAT_BonDeCommande
+      	
+      	sNomFichier est une chaine
+      	
+      	// Impression du bon de commande
+      	sNomFichier = fRepDonnées() +[fSep()]+ ChaîneConstruit(<§@184ea85f00018c810004§>, nNuméroCommande)
+      	iDestination(iPDFGénérique, sNomFichier)
+      	iImprimeEtat(ETAT_BonDeCommande, nNuméroCommande, nNuméroCommande)
+      	
+      	// Teste l'existence du fichier
+      	SI fFichierExiste(sNomFichier) = Faux ALORS
+      		Erreur(<§@184ea85f00018c810005§>)
+      		RETOUR
+      	FIN
+      	
+      	// Demande confirmation pour afficher le PDF
+      	SI OuiNon(Oui, <§@184ea85f00018c810003§>) = oui ALORS
+      		
+      		// Affiche le bon de commande généré
+      		LanceAppliAssociée(sNomFichier)
+      		
+      	FIN
+      	
+      <FIN>
+      
+      
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x184ea85f00018c81
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : M.
+     index : 0
+   -
+     text :
+      fr-FR : Mlle
+     index : 1
+   -
+     text :
+      fr-FR : Mme
+     index : 2
+   -
+     text :
+      fr-FR : Afficher le bon de commande généré (format PDF) ?
+     index : 3
+   -
+     text :
+      fr-FR : BDC_%1.PDF
+     index : 4
+   -
+     text :
+      fr-FR : Le fichier PDF n'a pas été généré
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

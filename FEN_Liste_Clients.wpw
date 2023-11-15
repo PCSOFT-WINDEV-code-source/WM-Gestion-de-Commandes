@@ -1,0 +1,302 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Liste_Clients
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Liste_Clients
+ identifier : 0x2f19698640a67688
+ internal_properties : CAAAAAgAAACUVDWbWMTiepSWoruo1AkUNRZiRG/UbrIwcZmfTVwjcfAMPRYnyl3U1XXTv9annzpg6cfvYxS7MIG7frFMt0E+3NypXmh9D5viv7BQfApuUcXWpPK8aXQt0nh25hhLGV7Z7Hi25tuqtg4RqBD2/YBxoo3QiVS2jlSPt6/RPUw2uwhjX3TFxutq71kn47DMbz5A34FHvXD6HnRxeVVFgsvxQ/mUUJjYRw3f6MNalWFi+R0cv4Lgz0TZpTxoYQ4ug5gsBND+ceIEChbS8HTY/apmgFtgnBhSphPO2wX/H+LaOhW+TeQMyl6uRpJQGNbc1tmuTXVZBVfjZqyFMUWXckmoA9xvaCaLwIt2KVs50WxNgohBzz7GMxFE9q/9vnlvQIA9rJaucDVrYouQTdnMul87ACRVw0NCjevbvTpjBVT1EIj12dZUT31ffjZ+QEQHMEi36vozDmxh7Qb8/wXsl/abNtLTkOp1wDdenW3s5u83ZAmMK/Hs79zr3Ja5NZecbQ/Hlzf1mA9P04yUhR92GBpFtTByOugbNxvrR/HbthhRyIo8/6bsqXD9kKLUKnobwBPj7inV51H0xeIHlPzsDa1SqGa3J4gNNBGyR5PTCc4PhNiPdcICr/fNi2LumqbJSXY8DxbPJVCm8RkGx3NzuleNLnEOl7jNEH7QyB8HBaPa/woCGhzSQpLdut0yLKprygKyc0WPkNtzXArfVcWzhwoLWfD1Wwa8tZpym4lDx9+lsGhoVjaFqciPlayEo0eTxiVPmmyvTW11DPwoEKogDppfJHuur/aL7XYRVA4y2Y06FUsURJYnSeoTtt4560bN4I6QJgtCMd0UFXOLrdMH
+ properties :
+  width : 320
+  height : 416
+  heightMin : 489
+ controls :
+  -
+    name : ZR_Clients
+    identifier : 0x2f196a0f41da8f93
+    internal_properties : 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
+    properties :
+     width : 320
+     height : 410
+    controls :
+     -
+       name : LIB_NomPrénom
+       identifier : 0x2f196a0f41dd8f93
+       internal_properties : CAAAAAgAAAD9t05n7smNQxRyp9occmTvTlL5mWjeNpFhA3jQhnCy9O+oG/uNAJDivO5f7qKuvoiNSjtedu33axhTJQSn9pbQ26KAwwBwCaQTHggGRq14IK95j4Q/QSgncHEYt1Dodwb1CH8Tve1g55SnMKzwgQ/ju8cxUaKkWIGiOKvuEa/cU5qey9NN5kqkglH26aJfHXncOFzrynXQgOwOGIzlDgnn8sbY8czKmC0MI1LCKCvswJg7Om8IYJjJhyxb12cNn51wB5eDVpTS9CNGfMA7mD54FRQziD+eGyp96yRkWR+p5IqEdxGi/liDVx7Dramkyg35S8dxNMsMJcAC89i6GWKuh/kLCtXsMeavmbeCGnZHO/sZ/WAH92j+qZW8dw8s7zCQt19N2YD30/AVdbpmK+nb2zno/DzDWZz22upnm0rGb/t40eeusqKpWHQeWJIyqXbmwQt2mVHZ99K2zpAa9U6k4Db6T7c1T4BvqBxgX5i6E5LbqgKLJNZ4Uz7kLrEzSldtLgBMZlBPHU6VrVpj+sg1VZJe
+       properties :
+        x : 4
+        y : 2
+        width : 298
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : LIB_Societe
+       identifier : 0x2f196a0f41de8f93
+       internal_properties : CAAAAAgAAABbA91dX+HsQBdWoCmAMHCCSBUG1Kg3FJZMk1wUe8VZqttqoBAQ+gQ2ra5xToHUpzdolsE27Sbu2MjugJHxtbZlm3Erl8a4dV8oHxrIEZLY9o3nJoik5DKjH4YxJY804Ghv/Yicyuor2z4/U7hVmYJkzpi0V4fho+LslrJae7mmfzak/u1f8wREDYZfBSHF5k7WUKCd+iDgQhoDQM/rGFnTsbXiKLIfsxD922g8PE0fFu5LviUhxzhORAzvFFcFlVZvD96e5u0YkWMuynq6qzLeADH+HINgJma9+m/T4FL7DuEONU4M58clCgavZltYScP5IdT0iBDNWs9tLkWnGumZKw2/iD0MhrXZdcfhxjo6EIJrGfbOVNgt3FNIhN8KBooz3DGSnhkyaVGUquqA4i8MSA6cBnFZP/BEW8ttiZGQ1HRh6luN27gcbpSyER0qvprrzU95XZMvTly/rMuouFA4RlRYgblPqElDoAzDvEhEMfoBYknnz7NpP65d7UYYscpIyA==
+       properties :
+        x : 4
+        y : 27
+        width : 298
+        height : 19
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_Disclosure
+       identifier : 0x2f196a0f41df8f93
+       internal_properties : CAAAAAgAAAC9Q5VqHb3r68wCEp9sQ1u4Kz0KTnHtIpBGrdCL7/uMunZjSdFrtSYW+EiF0Bgawolj0n8l6apBT0IWHrU+LAdRkGG79wco5fDvC25kF6O7kdtalf9rVwNI5hZbwAB2gw1damH4J8v841WWGLTQ0QISJ2IyE1cGEU27T0f4Loys4lXKXMMDklnyDJzFMrEw80v2LSCTKuhS92YcVVhjr7RUxXFQNVXW4nFywh6cxdLQCFI9KsN3il9BOGuf0QUgLv+xMGZg1/FGM5y9RYNncFHerjkTOs2phzClXL9znG4nAnY+soM+TDWj6rLbLu3U2hIxAd9OpU/6qK2obPAKI1ylAsTDUsckMsRgKkYTz+6Tjz+ZN0b0lM/KRG91Oym310CSFuSSjasoaBtbiM2Y30gr59ox+fOTqm5XVo6W6/PzpEjQ5IUeVvzP81TxE3HgultMBDGgOFBB2fx9QrTvd2POaCfxrPA+l1tzNmKu/wlUWHHOZaY4Gi2IXqRKPG5FLGnerh42gY161M7zX9EBSnHGcH0VVdJCS7bSxzUfD/AdewraKOgSLN03z89dewPny2WJPrr64v48tw+gKjwAtFhQOfoW+AaAY/CLB/uAMqH8XNaNqMwrOt82yn83MeXxWLO2Zm3GhFizYG8pZ4C+Pb+KGBeZDd1g0SaqPPMxG9NFNPG/U2sDk1vAIadQWcu9FguuZAK6ir6towArtmmg2VD1PWx0dR3TTRNDaWp3uuQXRWsIdIU7J5Xn4J0hefkvtqg0Z8pzFMU8GBUDv4Ro2S99Q5/+2MxJ3zdxtiQFfURSkQ==
+       properties :
+        x : 304
+        y : 16
+        width : 12
+        height : 16
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_NomPrénom
+       identifier : 0x2f196a0f41db8f93
+       internal_properties : CAAAAAgAAAA3bRaX82wB9smeAA34ST43e5QZTCbHsON13/g3rIcg24llFpmM3/wxDpqo4MLLmGQRBaBkkuzBFyLkbmDSlPxG0UBLAzYm2SiTWxCMR+zXdIXJTQ+n+KFuPoIAxO/JjHoMY1WTx8vkeg0rA5YD003A6grTSIa6pLTHD3oeP88Da+7r5R3WDJB8aNkMZTEj68p5M+2ab3NbjwKSGM3jClbme/h0
+       type : 3
+       content :
+        identifier : 0x2543da180b77724f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_Societe
+       identifier : 0x2f196a0f41dc8f93
+       internal_properties : CAAAAAgAAABSgMT8gM5X7HxpaiCpPvLHDVKgncwYoRZG8BKndJHLIo6t1SyjC6FvbqZQ173tox75LU9dP3qOt+3HjRTnnMaUcHbd2ypRz1lxYTCvDESSyIZbLNvQh2kiL4a2o8SSjHUY4URr7+lVeYmCPJJ+aP1r+J5OcNsJfLjAm0zvujB/3F3cfwBtHBe6wXcn6qpzPuYYikKcUqyWqvv+wTG/5A==
+       type : 3
+       content :
+        identifier : 0x2543da180b79724f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NumClient
+       identifier : 0x20c5c56c1884fe5d
+       internal_properties : CAAAAAgAAABsAXWuC/Bqvt75kCZZzhN8HmLhUJuGVakt2UlrFNvvx48Rkehka/P1u9T6yBHGLobJgoawrPMr1uq0QZRxNp8fyexE1aHF5KXOtlv5HR6+ZUcoUPFktn5jPff7pRE2WqJSvusFbFiAEv7j72qk1coEXsGhZPjbevpuDH9TcQwVYhdZgSDH3+381lVLdvVf6QD5fQ==
+       type : 3
+       content :
+        identifier : 0x2543da180b7b724f
+        internal_properties : CAAAAAgAAAA+ydwH69gPtZH9qoG8K7G6DH/mRhLAsIA4PXnwyQx9MV8BNs7UzvWB7NTCuEJWvBmA5CdsnUFWw3dCUBfdsaykjF1uve6LPYfwNBNWYEJulQmozEPUgRf5BggPT0njovHi1TUZ3dMWVWJDzVO7BYEECF/l1PEjm665bwXVv4LK4oa6xdFXhLX48q7GZuO+5fIY2l9pbbTIT9LWlT6k
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 35
+      -
+        code : |1-
+         
+        type : 15
+      -
+        code : |1-
+         
+        type : 16
+      -
+        code : |1-
+         
+        type : 19
+      -
+        code : |1-
+         
+        type : 20
+      -
+        code : |1-
+         
+        type : 21
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         // Se positionne sur le client
+         hlitrecherchepremier(client, numclient, ATT_NumClient)
+         si htrouve(client) alors
+         	// Ouverture de la fiche du fichier Client en mode modification
+         	OuvreFenêtreMobile(FEN_Fiche_client)
+         Fin
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+      -
+        code : |1-
+         // Se positionne sur le client
+         HLitRecherchePremier(Client, NumClient, ATT_NumClient)
+         SI HTrouve(Client) ALORS
+         	
+         	// Supprime le client
+         	hsupprime(client)
+         	
+         Fin
+        type : 223
+      -
+        code : |1-
+         
+        type : 224
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x24b7dadd072e82e6
+  internal_properties : CAAAAAgAAAB5gQC7DTyPIzcp/IbXZG7kv8hJrQKJW17gc9A7F0Tk/wX9pNj+u7y0enWiWlgKHwyOs/2OJ4oMP2FDHP2aytA8Pg+Ryh7RqEV933YW6hd7Nz+XXrTEUjKBOxET3tkzj6lzXSjQCsIbq7EAngDnQelvSGWYcF9qD6PkpItj/uY5kr5tOh4BN/y49SdaWCeK7CnE4xYXNqEBS+Igu1stHaK4FFhS+Ngp6xT0d6rvAq//NsZ+p5VdqjZ1nMcizsTV2jSjsnO4SBbzo8Fb+RpYYVaKj9RSyqHQf3Q8ubvwsHoAfta9cViK45YID0H9Q2YZolC0kMi3jMjFPtK/LcHk25sAvs2iPGy8ZN+wk9tpEYiuklJ4R9rwW1H/SMTdqG3y0zrujSpdkePe3wRLOlVXAfVbxdPLkWU0FDCvO5hn6jLE5dXw/qN52Vt2EAe+JkId6jiJjzObwbXoYtFoSeKKLwURDU7X0lY=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2f19698640ba7688
+  internal_properties : CAAAAAgAAAByVTsSr3/syDi1St8xf8fgHxdhV816G1q5zyODGkOm1npuSkYo5g/jXWoWFFK2H3oUBZtHLsT5rfRCnVFNNS0taWG501M84VhyiY2gqfWqbb5TaLNBc7/5X5PbRqVlZ5a3p7SznWjoHPbzt8FGrVw2pkxQ2AMTSCoEquPAoSRRZmCgf0llwPSIdkz+fkQsa3yCb/aARC1IuAmTNbEAkdknQHeBdhsRIWlMefD05RVbqvlMGzysSB4KUPZWTHHaQPB4ObHU/5KQ/VjN8jyQaoRgKuGxrJ5V23KTuMr/Zw==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x24b7db1007314888
+     internal_properties : CAAAAAgAAACxR/jx2ohK/Eb81YtcclQ1blzTRyOkZa/7KH9BVQ+ia1lGNQgWc68iPQ4vGo/+Xc2JLtfFvUv1I7ugEATds4h5BJVmI7z2G4woIz+iEoSMca6CWK+BHPZBwXeBLWfTJZ82XD2TOaXOAmMcdyLD/j3QTecIyVMXFL9DDtzn/yalT6Boe0QYBpLiOcTnFPmVDj17XSa2nJWU3WbWPoUOEM2qabNM4Gh7HFMqXG3/ig5VfXOeJ9kIJEMi0ztFADwkq3zWA97t86Ru/3/T/jkxP72AVJC6SQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          // Création d'un nouvel enregistrement
+          HRAZ(Client)
+          
+          // Ouverture de la fiche du fichier Client en mode création
+          OuvreFenêtreMobile(FEN_Fiche_Client)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABPqVk8uF0z5I/oAGgSaCaIlQPZFvGXKNAoRj7thiz+NLMEC7Rny9mn7FJYgiX2lyZOxUck1ut/rLM4PwQ+Iq7L0BI7HGjBrtTunURafubdBifctqZzT3EE34ITiA==
+ code_elements :
+  internal_properties : CAAAAAgAAADLrJgxiYjLClEwn7v7lblk4SmuMKdKZ2u81nuzaa+vmuMBtrqM5IKRTpCT8q7tP+pc8LxQYQ2OSG80qpLQDDEd9hIxm0aed/6JoQ==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure FEN_Liste_Clients()
+   -
+     code : |1-
+      // Actualise la liste
+      zonerepeteeaffiche(ZR_Clients, taRéExecuteRequete)
+     type : 34
+   -
+     code : |1-
+      
+     type : 165
+   -
+     code : |1-
+      // Actualise la liste des clients
+      ZoneRépétéeAffiche(ZR_Clients, taRéExecuteRequete)
+      
+      // Pour tout retour (sauf la suppression)
+      si mafenetrefille..ValeurRenvoyée <> -1 alors
+      
+      	nIndice est un entier
+      	
+      	// Recherche la ligne du client
+      	nIndice = zonerepeteecherche(ATT_NumClient, client.numclient)
+      	si nIndice > 0 ALORS
+      		
+      		// Positionne sur la ligne du client
+      		zonerepeteeposition(ZR_Clients, nIndice)
+      		
+      	FIN
+      	
+      FIn
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAAAlfrWZIGsslkP+Lb2l6f4EFr0QvhmIyqTpGhbar7TIrMnZgAi4HmFwnTo2CW4Cfv4o3LN063Eq0gCJEnkIiDI=
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fc503fc083fbd80
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
